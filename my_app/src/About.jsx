@@ -2,10 +2,10 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="py-16 bg-gray-100">
+    <section id="about" className="py-16 bg-gradient-to-r from-purple-200 to-pink-300">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">About Me</h2>
-        <div className="bg-white p-8 rounded-lg shadow-md">
+        <h2 className="text-3xl font-bold text-center text-white mb-8">About Me</h2>
+        <div className="bg-white p-8 rounded-lg shadow-xl">
           <p className="text-gray-700 mb-4">
             Hi, I'm <span className="font-semibold text-gray-900">SOUMIA IRADI</span>, a passionate web developer with a focus on front-end technologies like React, Tailwind CSS, and JavaScript. I love creating intuitive, responsive, and beautiful web applications that provide a great user experience.
           </p>
@@ -22,4 +22,3 @@ const About = () => {
 };
 
 export default About;
-
